@@ -1,0 +1,13 @@
+.fishList {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sectitle {
+    float: top; 
+}
+
+.fishpic {
+    width: 200px;
+    height: 200px;
+}
