@@ -3,6 +3,14 @@
     flex-wrap: nowrap;
 }
 
+.fishList {
+    display: flex;
+}
+
+.fish {
+
+}
+
 .sectitle {
     float: top; 
 }
@@ -10,4 +18,5 @@
 .fishpic {
     width: 200px;
     height: 200px;
+    padding: auto;
 }

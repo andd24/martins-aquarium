@@ -5,22 +5,33 @@
 } */
 
 body {
-    background-color: whitesmoke;
+    background-color:darkslategrey;
     color: white;
 }
 
 .header {
     display: flex;
     flex-wrap: nowrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-image: url(https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/v1622493750/shutterstock_1111584806-15-Astonishing-Facts-About-The-Amazon-Riverjpg1120/shutterstock_1111584806-15-Astonishing-Facts-About-The-Amazon-Riverjpg1120.jpg);
+    background-color: #cccccc;
+    height: 100px;
 }
 
 .title {
     flex: 4;
     text-align: center;
+    color: darkslategray;
+    margin: auto;
+    font-feature-se;
 }
 
 .bar {
     flex: 1;
+    color:darkslategray;
+    font-size: large;
+    margin: auto;
 }
 
 .content {
@@ -35,10 +46,6 @@ body {
 .right {
     flex: 1;
     text-align: center;
-}
-
-.fishes {
-    display: flex;
 }
 
 .footer {
